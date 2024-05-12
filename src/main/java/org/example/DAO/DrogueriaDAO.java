@@ -5,7 +5,7 @@ import org.example.clases.Medicamento;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MedicamentoDAO {
+public class DrogueriaDAO {
     private Map<String, Medicamento> medicamentos = new HashMap<>(); // Usamos el nombre del medicamento como clave
 
     public void guardarMedicamento(Medicamento medicamento) {
@@ -22,4 +22,3 @@ public class MedicamentoDAO {
             medicamento.setCantidadDisponible(medicamento.getCantidadDisponible() + cantidad);
         }
     }
-}

@@ -13,4 +13,5 @@ public class Medico {
     private String nombre;
     private String especialidad;
     private List<ObraSocial> obrasSociales;
+    private boolean atiendeParticular;
 }
